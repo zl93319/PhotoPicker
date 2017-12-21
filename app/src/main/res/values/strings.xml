@@ -1,3 +1,16 @@
 <resources>
 	<string name="app_name">PhotoPicker</string>
+	<string name="string_main_hint">您尚未完成开票信息，暂无法开具电子\n发票</string>
+	<string name="stirng_and_hint">请前往物业服务中心完善开票信息</string>
+	<string name="string_main_hint_other">查无可开票科目</string>
+	<string name="stirng_and_hint_other">如有疑问，请前往物业服务中心咨询</string>
+	<string name="praise_text_hint">    如果他/她的表现还不错，那就告诉享小家吧，您的鼓励是他/她继续进取的源泉！</string>
+	<string name="praise_to_hint_text">物业服务中心</string>
+	<string name="praise_to_header_text">致</string>
+	<string name="praise_lable">享家用户</string>
+	<string name="praise_text_title">物业表扬信</string>
+	<string name="property_praised">表扬物业</string>
+	<string name="praise_my_praise">我的表扬</string>
+	<string name="praise_text_default">感谢金地物业人员,你们的工作相当出色.棒棒哒!</string>
+	<string name="praise_dot">：</string>
 </resources>

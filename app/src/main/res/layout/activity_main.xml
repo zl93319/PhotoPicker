@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
+	android:orientation="vertical"
 	android:id="@+id/activity_main"
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:tools="http://schemas.android.com/tools"
@@ -10,8 +11,39 @@
 	<com.alex.photopicker.widget.PhotoEditView
 		android:id="@+id/photo_edit"
 		android:layout_width="match_parent"
-		android:layout_height="match_parent">
+		android:layout_height="50dp">
 
 	</com.alex.photopicker.widget.PhotoEditView>
+	<Button
+		android:textColor="@color/black"
+		android:background="@color/colorAccent"
+		android:text="添加并生成长图"
+		android:onClick="publish"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
 
-</RelativeLayout>
+
+<ScrollView
+	android:background="@color/colorPrimary"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<ImageView
+		android:id="@+id/iv"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+</ScrollView>
+	<ScrollView
+		android:id="@+id/sv"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+
+	</ScrollView>
+	<LinearLayout
+		android:id="@+id/ll_container"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+	</LinearLayout>
+
+</LinearLayout>
